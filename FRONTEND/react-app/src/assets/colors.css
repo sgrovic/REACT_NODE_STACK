@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #007BFF;
+    --primary-hover: #0056b3;
+
+    --background-color: #f4f4f4;
+    --card-color: #ffffff;
+
+    --text-color: #333;
+    --muted-color: #777;
+
+    --danger-color: #DC3545;
+    --success-color: #28A745;
+
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --shadow-color-strong: rgba(0, 0, 0, 0.25);
+}
