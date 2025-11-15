@@ -17,7 +17,7 @@ export default function Login() {
         try {
             const data = await loginUser(email, password);
             setType('success');
-            setMessage('Login Success');
+            setMessage(data.message || 'Login Successful');
             // handle successful login (redirect, store token, etc.)
         } catch (err) {
             setType('error');
